@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Page title that appears in browser tab -->
+    <title>Expense Tracker - Sign In</title>
+    
+    <!-- Load Bootstrap 5 CSS from CDN (Content Delivery Network) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Load our custom CSS file -->
+    <link rel="stylesheet" href="bootstrap_styles.css">
+</head>
+
+<!-- bg-light gives a light gray background to the entire page -->
+<body class="bg-light">
+    <!-- Bootstrap container keeps content from touching screen edges -->
+    <div class="container">
+        <!-- Row for centering content -->
+        <!-- justify-content-center centers horizontally -->
+        <!-- align-items-center centers vertically -->
+        <!-- min-vh-100 makes container full height of viewport -->
+        <div class="row justify-content-center align-items-center min-vh-100">
+            <!-- Column that's full width on small screens -->
+            <!-- col-md-6 takes half width on medium screens -->
+            <!-- col-lg-4 takes one-third width on large screens -->
+            <div class="col-md-6 col-lg-4">
+                <!-- Card component with shadow effect -->
+                <div class="card shadow">
+                    <!-- Card body with padding and centered text -->
+                    <!-- p-5 adds large padding -->
+                    <div class="card-body text-center p-5">
+                        <!-- Main heading with bottom margin -->
+                        <h1 class="card-title mb-4">Welcome to Expense Tracker</h1>
+                        
+                        <!-- Sign In button -->
+                        <!-- btn-success makes it green -->
+                        <!-- btn-lg makes it larger -->
+                        <!-- onclick handles the navigation -->
+                        <button onclick="location.href='bootstrap_expenses.html'" class="btn btn-success btn-lg">Sign In</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html> 

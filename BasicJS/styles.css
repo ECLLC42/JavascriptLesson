@@ -1,0 +1,198 @@
+/* Reset default margin and set font for entire app */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* ===== SIGN IN PAGE STYLES ===== */
+/* Container that centers the sign-in box vertically and horizontally */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  /* Makes container full height of viewport */
+    background-color: #f0f0f0;  /* Light grey background */
+}
+
+/* White box that contains the sign-in content */
+.sign-in-box {
+    background: white;
+    padding: 40px;
+    border-radius: 8px;  /* Rounded corners */
+    text-align: center;
+}
+
+/* Style for all buttons in the app */
+button {
+    padding: 10px 20px;
+    background-color: #2e7d32;  /* Green color */
+    color: white;
+    border: none;
+    border-radius: 4px;  /* Slightly rounded corners */
+    cursor: pointer;  /* Hand cursor on hover */
+}
+
+/* ===== EXPENSES PAGE STYLES ===== */
+/* Green header bar at top of expenses page */
+.header {
+    background-color: #2e7d32;
+    color: white;
+    padding: 20px;  /* Increased padding */
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 24px;  /* Bigger logo text */
+    font-weight: bold;
+}
+
+/* Layout container for expenses and reports sections */
+.main-container {
+    display: flex;
+    padding: 40px;  /* Increased padding */
+    gap: 40px;  /* Increased gap between sections */
+    max-width: 1200px;  /* Control maximum width */
+    margin: 0 auto;  /* Center the container */
+}
+
+/* Shared styles for both main sections */
+.expenses-section, .reports-section {
+    border: 2px solid #ccc;  /* Thicker border */
+    padding: 30px;  /* More internal padding */
+    border-radius: 8px;
+    flex: 1;  /* Make boxes take equal space */
+    min-width: 400px;  /* Minimum width for each section */
+}
+
+/* Expense section specific styles */
+.expenses-section h2, .reports-section h2 {
+    font-size: 28px;  /* Bigger headings */
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.expenses-section h3 {
+    color: #2e7d32;  /* Green color for WEEKLY/MONTHLY */
+    font-size: 20px;
+    margin: 25px 0 15px 0;
+}
+
+/* Container for each expense input row */
+.expense-item {
+    margin: 15px 0;  /* More vertical spacing */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.expense-item label {
+    font-size: 18px;  /* Bigger label text */
+}
+
+/* Style for all input fields */
+input {
+    padding: 8px 12px;  /* Bigger input fields */
+    width: 200px;  /* Wider input fields */
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Reports section specific styles */
+.reports-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.income-input {
+    margin-bottom: 20px;
+}
+
+#budget, #totalExp {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Style for budget alert messages */
+.alert {
+    margin: 25px 0;
+    padding: 15px;
+    color: red;
+    font-size: 18px;
+}
+
+/* Style for sign out button */
+.sign-out {
+    margin-top: auto;  /* Push button to bottom */
+    padding: 12px 30px;  /* Bigger button */
+    font-size: 18px;
+    border-radius: 20px;  /* More rounded corners like in image */
+    align-self: center;  /* Center the button */
+}
+
+/* Total section */
+.total {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 2px solid #ccc;
+}
+
+.total h3 {
+    color: #2e7d32;
+    font-size: 22px;
+}
+
+/* Add these new styles for the reports section */
+
+/* Style for the report boxes (Budget and Total Exp) */
+.report-box {
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    margin: 10px 0;
+    font-size: 18px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+/* Container for alert section */
+.alert-container {
+    margin: 25px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 15px;
+}
+
+/* Style for "ALERT MESSAGE:" label */
+.alert-label {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Update the alert style */
+.alert {
+    color: #666;  /* Default gray color */
+    font-size: 16px;
+    font-style: italic;
+}
+
+/* When alert is active (add via JavaScript) */
+.alert.warning {
+    color: red;
+    font-style: normal;
+}
+
+/* Update the income input styles */
+.income-input {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.income-input label {
+    font-size: 18px;
+    font-weight: bold;
+} 

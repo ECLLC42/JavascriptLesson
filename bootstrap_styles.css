@@ -1,0 +1,135 @@
+/* ========== CUSTOM STYLES TO SUPPLEMENT BOOTSTRAP ========== */
+
+/* 
+SELECTOR: .input-group-text
+TYPE: Class selector
+SCOPE: Applies to all elements with class="input-group-text"
+PURPOSE: Styles the labels in input groups
+*/
+.input-group-text {
+    /* Forces minimum width to prevent squishing */
+    min-width: 100px;
+    /* Aligns text to the right side of the label */
+    justify-content: end;
+}
+
+/* 
+SELECTOR: .alert
+TYPE: Class selector
+SCOPE: Applies to all elements with class="alert"
+PURPOSE: Modifies Bootstrap's default alert styling
+*/
+.alert {
+    /* Adds space below alert boxes */
+    margin-bottom: 1rem;
+    /* Makes text semi-bold */
+    font-weight: 500;
+}
+
+/* 
+SELECTOR: #alert
+TYPE: ID selector
+SCOPE: Applies to element with id="alert"
+PURPOSE: Styles the alert message text
+*/
+#alert {
+    /* Makes text larger */
+    font-size: 1.25rem;
+    /* Makes text semi-bold for better visibility */
+    font-weight: 500;
+    /* Makes all alert text red */
+    color: #ff0000;
+}
+
+/* 
+SELECTOR: #alert.warning
+TYPE: ID selector with class modifier
+SCOPE: Applies only to element with id="alert" when it has class="warning"
+PURPOSE: Styles the warning state of the alert message
+*/
+#alert.warning {
+    /* Makes warning text even brighter red */
+    color: #ff0000;
+    /* Makes warning text bold */
+    font-weight: 700;
+    /* Makes warning text even larger */
+    font-size: 1.5rem;
+}
+
+/* 
+SELECTOR: .card
+TYPE: Class selector
+SCOPE: Applies to all elements with class="card"
+PURPOSE: Modifies Bootstrap's default card styling
+*/
+.card {
+    /* Removes default card border */
+    border: none;
+    /* Makes corners more rounded */
+    border-radius: 10px;
+}
+
+/* 
+SELECTOR: .navbar-brand
+TYPE: Class selector
+SCOPE: Applies to all elements with class="navbar-brand"
+PURPOSE: Modifies Bootstrap's default navbar brand styling
+*/
+.navbar-brand {
+    /* Makes logo text bold */
+    font-weight: bold;
+    /* Increases logo text size */
+    font-size: 1.5rem;
+}
+
+/* 
+SELECTOR: .card-header
+TYPE: Class selector
+SCOPE: Applies to all elements with class="card-header"
+PURPOSE: Styles the alert message header
+*/
+.card-header {
+    /* Makes the header text larger */
+    font-size: 1.2rem;
+    /* Adds some padding */
+    padding: 1rem;
+    /* Makes header text bold */
+    font-weight: 600;
+    /* Adds a subtle background */
+    background-color: #f8f9fa;
+}
+
+/*
+CSS CONCEPTS USED:
+
+1. Selectors:
+   - Class selectors (.alert, .card)
+   - ID selectors (#alert)
+   - Compound selectors (#alert.warning)
+
+2. Properties:
+   - Box model (margin-bottom, border, border-radius)
+   - Typography (font-weight, font-size)
+   - Layout (min-width, justify-content)
+   - Colors (color)
+
+3. Values:
+   - Length units (rem, px)
+   - Colors (hex codes: #dc3545)
+   - Keywords (none, bold, end)
+
+4. Specificity:
+   - Classes (.alert) - specificity: 0,0,1,0
+   - IDs (#alert) - specificity: 0,1,0,0
+   - Compound (#alert.warning) - specificity: 0,1,1,0
+
+5. Inheritance:
+   - Font properties cascade down to child elements
+   - Some properties don't inherit (borders, margins)
+
+6. Purpose:
+   - Enhances Bootstrap's default styles
+   - Maintains consistent branding
+   - Improves visual hierarchy
+   - Ensures responsive design
+*/ 

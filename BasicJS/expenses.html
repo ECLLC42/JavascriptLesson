@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <div class="logo">LOGO</div>
+        <div class="nav">
+            <span>SIGN IN</span>
+            <span>HOME</span>
+        </div>
+    </div>
+
+    <div class="main-container">
+        <div class="expenses-section">
+            <h2>EXPENSES</h2>
+            
+            <h3>WEEKLY</h3>
+            <div class="expense-item">
+                <label>Groceries:</label>
+                <input type="number" id="groceries">
+            </div>
+            <div class="expense-item">
+                <label>Fuel:</label>
+                <input type="number" id="fuel">
+            </div>
+            <div class="expense-item">
+                <label>Entert.:</label>
+                <input type="number" id="entertainment">
+            </div>
+
+            <h3>MONTHLY</h3>
+            <div class="expense-item">
+                <label>Rent/Mort:</label>
+                <input type="number" id="rent">
+            </div>
+            <div class="expense-item">
+                <label>Cellphone:</label>
+                <input type="number" id="cellphone">
+            </div>
+            <div class="expense-item">
+                <label>Utilities:</label>
+                <input type="number" id="utilities">
+            </div>
+
+            <div class="total">
+                <h3>TOTAL: <span id="total">$0</span></h3>
+            </div>
+        </div>
+
+        <div class="reports-section">
+            <h2>REPORTS</h2>
+            <div class="income-input">
+                <label>Income:</label>
+                <input type="number" id="income">
+            </div>
+            <div class="report-box">Budget: <span id="budget">$0</span></div>
+            <div class="report-box">Total Exp: <span id="totalExp">$0</span></div>
+            
+            <div class="alert-container">
+                <div class="alert-label">ALERT MESSAGE:</div>
+                <div class="alert" id="alert">You are within budget</div>
+            </div>
+            
+            <button onclick="location.href='index.html'" class="sign-out">SIGN OUT</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 

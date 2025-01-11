@@ -1,0 +1,53 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Bootstrap build files
+/dist/
+/.sass-cache/
+/bootstrap-*/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE and Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Build and compile directories
+/build/
+/public/build/
+/coverage/
+
+# Logs
+logs
+*.log
+
+# Cache directories
+.cache/
+.temp/
+
+# Optional: Uncomment if you're using these
+# /src/css/bootstrap.css
+# /src/css/bootstrap.min.css
+# /src/js/bootstrap.js
+# /src/js/bootstrap.min.js
+
+# System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db 
