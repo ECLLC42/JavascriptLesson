@@ -7,7 +7,7 @@ package-lock.json
 yarn.lock
 
 # Bootstrap build files
-/bootstrap
+/bootstrap/
 /dist/
 /.sass-cache/
 /bootstrap-*/
