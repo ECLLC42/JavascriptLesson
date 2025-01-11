@@ -54,8 +54,8 @@ HTML is the foundation or “bones” of a web page. It describes where your tex
 #### Key HTML Concepts
 
 1. Elements  
-   • The basic building blocks of an HTML page (e.g., <h1>, <p>, <div>, <button>).  
-   • Each element is wrapped between tags, < h1 >My Title< /h1 >.
+   • The basic building blocks of an HTML page (e.g., h1, p, div, button, all inside "<" and ">").  
+   • Each element is wrapped between tags.
 
 2. Attributes  
    • Extra settings or properties for an element (e.g., id="mainTitle", class="expenseInput").
