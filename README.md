@@ -387,4 +387,3 @@ For Absolute Beginners:
 • Google any error messages you don’t understand—chances are someone else had the same problem!  
 
 ──────────────────────────────────────────────────
-Remember: Every expert was once a beginner, too. Take it one step at a time, enjoy discovering how web pages are built, and have fun along the way!  
